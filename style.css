@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Pacifico";
+}
+
+body {
+    background-color: #333;
+    color: aliceblue;
+    padding: 25%
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: purple;
+
+    border: 2px solid whitesmoke;
+
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(55, 191, 136);
+    padding: 1em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stp {
+    font-size: large;
+    color: aqua
+}
+
+.secp {
+    font-size: large;
+    color: rgb(255, 196, 0)
+}
+
+.thirdp {
+    font-size: large;
+    color: rgb(151, 25, 25)
+}
+
+
+
+.test {
+    text-align: center;
+    width: 50vw;
+    margin: 2rem;
+    font-weight: bolder;
+
+    border: 2px solid wheat;
+    border-radius: 10%;
+    outline: 6px solid rgb(206, 129, 206);
+    outline-offset: 6px;
+
+}
+
+.a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 3px solid palegreen;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    font-size: 3rem;
+    background-color: #fff;
+}
+
+a:active {
+    color: red;
+}
+
+ol li {
+    margin: 1rem;
+    list-style-type: lower-alpha;
+    /* list-style-image: url("img/cssIcon.png") ; */
+    /* list-style-image: url("img/cssIcon.png") ; */
+}
+ol li:nth-child(odd) {
+    color: rgb(168, 79, 79);
+}
+ol li::marker {color: antiquewhite;content: "only 5$ >>";}
